@@ -1,0 +1,28 @@
+POST https://musical-dollop-vw9q6wrqp9qcwq94-5000.app.github.dev/api/todoData
+Content-Type: application/json
+
+{
+    "title": "Title 4",
+    "description": "Implementing post requests"
+}
+
+###
+
+GET https://musical-dollop-vw9q6wrqp9qcwq94-5000.app.github.dev/api/todoData
+
+###
+
+GET https://musical-dollop-vw9q6wrqp9qcwq94-5000.app.github.dev/api/todoData/27a13909-48f5-4194-8bda-6d7835b82aa9
+
+###
+
+PUT  https://musical-dollop-vw9q6wrqp9qcwq94-5000.app.github.dev/api/todoData/27a13909-48f5-4194-8bda-6d7835b82aa9
+Content-Type: application/json
+
+{
+    "title": "Title 1 (updated)"
+}
+
+###
+
+DELETE https://musical-dollop-vw9q6wrqp9qcwq94-5000.app.github.dev/api/todoData/61b7201d-e67c-4cf4-a4c0-f4178eebb626
