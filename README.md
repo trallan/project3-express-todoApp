@@ -58,7 +58,7 @@ project/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/todo-app.git
+git clone https://github.com/trallan/project3-express-todoApp
 cd todo-app
 ```
 
