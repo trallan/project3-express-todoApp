@@ -26,16 +26,23 @@ A simple **Todo application** built with **React** for the frontend and **Node.j
 
 ## Folder Structure
 
+```plaintext
 project/
-├─ client/ # React frontend
-│ ├─ src/
-│ │ ├─ components/ # FormTodo, TodoData, NavComponent
-│ │ ├─ pages/ # HomePage, TodosPage
-│ │ └─ App.jsx
-├─ server/ # Node + Express backend
-│ └─ server.js # API routes for todos
-├─ package.json
-└─ README.md
+├── client/               # React frontend
+│   ├── src/
+│   │   ├── components/   # FormTodo, TodoData, NavComponent
+│   │   ├── pages/        # HomePage, TodosPage
+│   │   ├── App.jsx
+│   │   └── index.js
+│   ├── package.json
+│   └── README.md
+├── server/               # Node + Express backend
+│   ├── index.js          # API routes and Express server setup
+│   ├── package.json
+│   └── README.md
+├── package.json           # Root package.json (optional if managing both together)
+└── README.md              # Project documentation
+```
 
 ---
 
